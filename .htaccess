@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^sfmc\.ir$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.sfmc\.ir$
+RewriteRule ^/?$ "http\:\/\/5th\.sfmc\.ir\/" [R=301,L]
+DirectoryIndex index.html
