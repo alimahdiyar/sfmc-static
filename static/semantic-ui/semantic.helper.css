@@ -1,0 +1,80 @@
+
+.dbg {
+    background-color: red;
+}
+
+.is-rtl {
+    direction: rtl !important;
+}
+
+.is-ltr {
+    direction: ltr !important;
+}
+
+.is-text-right, .right.aligned, .righted {
+    text-align: right !important;
+}
+
+.is-text-center, .center.aligned, .centered {
+    text-align: center !important;
+}
+
+.is-text-left, .left.aligned, .lefted {
+    text-align: left !important;
+}
+
+.ui.checkbox input.hidden {
+    z-index: 1;
+}
+
+.is-font-ultralight {
+    font-weight: 100 !important;
+}
+
+.is-font-light {
+    font-weight: 300 !important;
+}
+
+.is-font-medium {
+    font-weight: 500 !important;
+}
+
+.is-font-bold {
+    font-weight: bold !important;
+}
+
+
+
+@media (max-width: 767px) {
+    .hide.on.mobile {
+        display: none;
+    }
+    .hide.on.mobile.hard {
+        display: none !important;
+    }
+}
+
+@media (min-width: 767px) {
+    .show.on.mobile {
+        display: none;
+    }
+    .show.on.mobile.hard {
+        display: none !important;
+    }
+}
+
+.ui.form .field.success input:not([type]), .ui.form .field.success input[type=text], .ui.form .field.success input[type=email], .ui.form .field.success input[type=search], .ui.form .field.success input[type=password], .ui.form .field.success input[type=date],
+.ui.form .field.success input[type=datetime-local], .ui.form .field.success input[type=tel], .ui.form .field.success input[type=time], .ui.form .field.success input[type=url], .ui.form .field.success input[type=number], .ui.form .field.success select,
+.ui.form .field.success textarea, .ui.form .fields.success .field input:not([type]), .ui.form .fields.success .field input[type=text], .ui.form .fields.success .field input[type=email], .ui.form .fields.success .field input[type=search],
+.ui.form .fields.success .field input[type=password], .ui.form .fields.success .field input[type=date], .ui.form .fields.success .field input[type=datetime-local], .ui.form .fields.success .field input[type=tel], .ui.form .fields.success .field input[type=time],
+.ui.form .fields.success .field input[type=url], .ui.form .fields.success .field input[type=number], .ui.form .fields.success .field select, .ui.form .fields.success .field textarea {
+    background: #fcfff5;
+    border-color: #689F38;
+    color: #2c662d;
+    border-radius: .28571429rem;
+    box-shadow: none;
+}
+
+.ui.form .field.success .input, .ui.form .field.success label, .ui.form .fields.success .field .input, .ui.form .fields.success .field label {
+    color: #388E3C !important;
+}
