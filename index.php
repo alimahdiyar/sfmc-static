@@ -1,5 +1,4 @@
 <?php include 'base.php' ?>
-{% load static %}
 
 <?php startblock('styles') ?>
     <style>
@@ -780,7 +779,7 @@
 
 <?php endblock('bottomcontent') ?>
 
-{% block scripts  %}
+<?php startblock('scripts') ?>
     <script>
         $(document).ready(function(){
             $(".show_news_modal_1").click(function(){
