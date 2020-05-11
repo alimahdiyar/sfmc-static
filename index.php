@@ -1,4 +1,3 @@
-<?php require_once 'ti.php' ?>
 <!DOCTYPE html>
 
 <html>
